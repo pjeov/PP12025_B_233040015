@@ -13,11 +13,11 @@ public class NodeMain {
 		Node n5 = new Node(2);
 		Node n6 = new Node(3);
 		
-		// Membuat Relasi Node n1 & n2 untuk soal 4 A
+		// Membuat Relasi Node n1 & n2 
 		n1.setNext(n2);
-		//Membuat Relasi Node n2 & n3 untuk soal 4 A
+		//Membuat Relasi Node n2 & n3 
 		n2.setNext(n3);
-		//Membuat Relasi Node n3 & n4 untuk soal 4 A
+		//Membuat Relasi Node n3 & n4  
 		n3.setNext(n4);
 		
 		//
