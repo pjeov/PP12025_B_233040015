@@ -3,6 +3,7 @@ package P1;
 public class Node {
 	private int Nilai;
 	private Node Next;
+	public Node next;
 	
 	//inisialisasi Node
 	public Node(int Nilai) {
@@ -20,5 +21,9 @@ public class Node {
 	}
 	public Node getNext() {
 		return Next;
+	}
+	public String getData() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
